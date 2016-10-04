@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+}
+
+  *{
+    padding: 0;
+    margin:0;
+  }
+
+header{
+    padding: 0em;
+    color: #616161;
+    font-family: 'Cantarell', sans-serif;
+    background-color: #fff;
+    font-weight: bold;
+    clear: left;
+    text-align: center;
+}
+
+/* Title bar*/
+
+		#logo{
+			margin: 0.5%;
+      margin-left: 2%;
+			height: 60px;
+      width: 160px;
+			float:left;
+		}
+
+		#menu ul li{
+			list-style-type: none;
+			padding-left: 3%;
+			line-height: 70px;
+      color: #00E676;
+			float:left;
+		}
+
+
+		#menu ul li a{
+      font-family: 'Cantarell', sans-serif;
+			color:#000;
+			text-decoration: none;
+      font-weight:400;
+      font-size:17px;
+
+
+		}
+
+    #menu ul li a:hover{
+      font-weight: 600;
+		}
+
+		#search{
+			margin: 1.2%;
+			height: 30px;
+			float:right;
+		}
+
+		#title_bar{
+			position: fixed;
+			height: 70px;
+			width: 100%; opacity: 0.9;
+      color: #1A237E;
+			background-color:#E0E0E0;
+		}
+
+		.img_logo{
+			height: 100%;
+      width: 100%;
+		}
+
+		.img_menu001{
+			padding-top: 10px;
+			height:23px;
+			margin-right:10px;
+		}
+
+		.img_search{
+
+			height: 30px;
+		}
+
+    /*Paralex */
+
+    .parallax1 {
+        /* The image used */
+        background-image: url('para_back.png');
+        /* Full height */
+        height: 40%;
+        opacity: 1.7;
+        font-family: 'Cantarell', sans-serif;
+
+        /* Create the parallax scrolling effect */
+        background-attachment:fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .tablespace{
+        text-align: center;
+        margin: 0%;
+        width: 50%;
+        height: 100%;
+    }
+
+    .numb{
+      vertical-align: bottom;
+      font-size: 55px;
+      font-weight:500;
+      color: #fff;
+    }
+    .label{
+      color:#fff;
+      vertical-align: top;
+      font-size: 25px;
+    }
