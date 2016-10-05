@@ -8,6 +8,16 @@ body, html {
     font-family: 'Cantarell', sans-serif;
   }
 
+  .tobeadded {
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 40%;
+    height:50%;
+}
+
 header{
     padding: 0em;
     color: #616161;
@@ -96,6 +106,7 @@ header{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 0px;
     }
 
     .tablespace{
@@ -118,7 +129,7 @@ header{
     }
 
     .twitter{
-      padding: 3%;
+      padding: 0%;
       text-align: center;
       height:50%;
       width: 100%;
@@ -184,7 +195,7 @@ header{
         visibility: visible;
     }
 
-    .footer{
+    footer{
     	height: 25%;
     	width: 100%;
     	background-color: #424242;
