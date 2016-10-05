@@ -5,6 +5,7 @@ body, html {
   *{
     padding: 0;
     margin:0;
+    font-family: 'Cantarell', sans-serif;
   }
 
 header{
@@ -84,10 +85,10 @@ header{
 
     .parallax1 {
         /* The image used */
-        background-image: url('para_back.png');
+        background-image: url('para_back.jpg');
         /* Full height */
-        height: 40%;
-        opacity: 1.7;
+        height: 80%;
+        opacity: 1.2;
         font-family: 'Cantarell', sans-serif;
 
         /* Create the parallax scrolling effect */
@@ -101,7 +102,7 @@ header{
         text-align: center;
         margin: 0%;
         width: 50%;
-        height: 100%;
+        height: 50%;
     }
 
     .numb{
@@ -114,4 +115,89 @@ header{
       color:#fff;
       vertical-align: top;
       font-size: 25px;
+    }
+
+    .twitter{
+      padding: 3%;
+      text-align: center;
+      height:50%;
+      width: 100%;
+      opacity: 0.9;
+      background-color:#2196F3;
+      font-size:36px;
+    }
+
+    .twitter_heading{
+      vertical-align: bottom;
+      font-size: 40px;
+      font-weight:500;
+      color: #fff;
+    }
+    .twitter_hash{
+      color:#fff;
+      vertical-align: top;
+      font-weight:500;
+      font-size: 50px;
+    }
+/* Footer */
+
+    .p{
+        font-size: 13px;
+        color: white;
+        padding: 2px;
+        padding-bottom:5%;
+    }
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -60px;
+    }
+
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+    .footer{
+    	height: 30%;
+    	width: 100%;
+    	background-color: #424242;
+      text-align:center;
+    }
+
+    hr{
+      padding-bottom:2%;
+      border: 0.5px;
+      border-style: none;
+    }
+
+    .img_height{
+    	height:40px;
+
     }
